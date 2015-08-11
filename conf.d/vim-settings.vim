@@ -18,3 +18,34 @@ set backupskip=/tmp/*,/private/tmp/*"
 set notimeout
 set ttimeout
 set ttimeoutlen=100
+
+" ignore Rubinius, Sass cache files
+set wildignore+=tmp/**,*.rbc,.rbx,*.scssc,*.sassc
+" ignore Bundler standalone/vendor installs & gems
+set wildignore+=bundle/**,vendor/bundle/**,vendor/cache/**,vendor/gems/**
+set wildignore+=node_modules/**
+
+set splitright
+set splitbelow
+
+
+augroup vimrcEx
+  autocmd!
+
+  " Avoid showing trailing whitespace when in insert mode
+  au InsertEnter * :set listchars-=trail:•
+  au InsertLeave * :set listchars+=trail:•
+
+  " Remember last location in file, but not for commit messages.
+  " see :help last-position-jump
+  autocmd BufReadPost * if &filetype !~ '^git\c' && line("'\"") > 0 && line("'\"") <= line("$")
+    \| exe "normal! g`\"" | endif
+
+  " magic markers: enable using `H/S/J/C to jump back to
+  " last HTML, stylesheet, JS or Ruby code buffer
+  au BufLeave *.{erb,html}      exe "normal! mH"
+  au BufLeave *.{css,scss,sass} exe "normal! mS"
+  au BufLeave *.{js,coffee}     exe "normal! mJ"
+  au BufLeave *.{rb}            exe "normal! mC"
+augroup END
+

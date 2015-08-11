@@ -1,3 +1,5 @@
+runtime macros/matchit.vim  " enables % to cycle through `if/else/endif`
+
 set scrolloff=3    " have some context around the current line always on screen
 set cursorline     " highlight the line of the cursor
 set cursorcolumn   " highlight the column of the cursor

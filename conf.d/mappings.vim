@@ -1,3 +1,16 @@
+let mapleader='\'
+
+" Movement
+inoremap <c-h> <left>
+inoremap <c-j> <down>
+inoremap <c-k> <up>
+inoremap <c-l> <right>
+" inoremap <m-h> 
+" inoremap <m-j> 
+" inoremap <m-k> 
+" inoremap <m-l> 
+
+nnoremap <leader><leader> <c-^>
 " Buffer mappings
 nnoremap <leader>bd :bd<cr>
 nnoremap <leader>w :w<cr>
@@ -5,25 +18,50 @@ nnoremap <leader>q :q<cr>
 
 " Window mappings
 nnoremap <c-_> <c-w><c-_>
+nnoremap <c-h> <c-w><c-h>
+nnoremap <c-j> <c-w><c-j>
+nnoremap <c-k> <c-w><c-k>
+nnoremap <c-l> <c-w><c-l>
 
-" Plugin mappings
-nnoremap <leader>gs :Gstatus<cr>
-nnoremap <leader>gw :Gwrite<cr>
-nnoremap <leader>gci :Gcommit 
-nnoremap <leader>gm :Gmerge 
-nnoremap <leader>gpu :Gpush 
-nnoremap <leader>gpl :Gpull 
-nnoremap <leader>gg :Ggrep 
-nnoremap <leader>glg :Glgrep 
-nnoremap <leader>glog :Glog<cr>
-nnoremap <leader>ge :Gedit 
-nnoremap <leader>ges :Gsplit 
-nnoremap <leader>gev :Gvsplit 
-nnoremap <leader>get :Gtabedit 
-nnoremap <leader>gep :Gpedit 
-nnoremap <leader>gd :Gdiff
+" Editing
+" Folding
+nnoremap <Space> za
+nnoremap <S-Space> zA
+nnoremap <leader>rt :retab<cr>
+" yank to system clipboard
+map <leader>y "*y
+" copy entire buffer to system clipboard and return to current line
+map <leader>c gg"*yG``
+" paste lines from unnamed register and fix indentation
+nmap <leader>p pV`]=
+nmap <leader>P PV`]=
+" <Tab> indents if at the beginning of a line; otherwise does completion
+function! InsertTabWrapper()
+  let col = col('.') - 1
+  if !col || getline('.')[col - 1] !~ '\k'
+    return "\<tab>"
+  else
+    return "\<c-p>"
+  endif
+endfunction
+" inoremap <tab> <c-r>=InsertTabWrapper()<cr>
+" inoremap <s-tab> <c-n>
+imap <c-space> <c-x><c-o>
 
-nnoremap <leader>st :SyntasticToggleMode<cr>
-nnoremap <leader>se :Errors<cr>
+" Searching
+map <leader>h "0yiw:help <c-r>0
+map <leader># "0yiw?\v^((<c-r>0)@!.)*\n<cr>
+map <leader>* "0yiw/\v^((<c-r>0)@!.)*\n<cr>
+" bind K to grep word under cursor
+nnoremap K :Ack! "\b<C-R><C-W>\b"<CR>:cw<CR>
+vnoremap K "*y :Ack! "\b<C-R>*\b"<CR>:cw<CR>
 
-nnoremap <leader>pctf :CommandTFlush<cr>
+" Quick RC editing
+nnoremap <leader>ev :tabedit ~/.vimrc<cr>
+nnoremap <leader>sv :source ~/.vimrc<cr>
+nnoremap <leader>Ev bd ~/.vimrc<cr>
+
+" Ex mode mappings
+cnoremap <C-a> <Home>
+
+" Misc

@@ -8,6 +8,8 @@ function! Dot(path)
   return '~/.vim/' . a:path
 endfunction
 
+execute 'source' Dot('plugins.vim')
+
 " Load all configuration modules.
 for file in split(glob(Dot('conf.d/*.vim')), '\n')
   execute 'source' file

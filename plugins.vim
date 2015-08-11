@@ -1,6 +1,8 @@
 " Note: Skip initialization for vim-tiny or vim-small.
 if 0 | endif
 
+echomsg 'Loading plugins...'
+
 if has('vim_starting')
   if &compatible
     set nocompatible               " Be iMproved
