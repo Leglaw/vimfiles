@@ -2,5 +2,9 @@
 .netrwbook
 bundle/*
 !bundle/neobundle.vim
-session/
-spell/
+session/*
+spell/*
+
+# keep following directories
+!session/.gitkeep
+!spell/.gitkeep
