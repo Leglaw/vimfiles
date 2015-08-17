@@ -13,7 +13,7 @@ iabbrev mnw: min-width:
 iabbrev mxh: max-height:
 iabbrev mnh: min-height:
 iabbrev pos: position:
-iabbrev fl: float:
+iabbrev f: float:
 iabbrev m: margin:
 iabbrev mt: margin-top:
 iabbrev mr: margin-right:
