@@ -1,5 +1,6 @@
 .netrwhist
 .netrwbook
-bundle/
+bundle/*
+!bundle/neobundle.vim
 session/
 spell/
