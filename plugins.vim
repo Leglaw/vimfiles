@@ -1,8 +1,6 @@
 " Note: Skip initialization for vim-tiny or vim-small.
 if 0 | endif
 
-echomsg 'Loading plugins...'
-
 if has('vim_starting')
   if &compatible
     set nocompatible               " Be iMproved
@@ -34,7 +32,6 @@ NeoBundle 'tpope/vim-commentary'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'tpope/vim-endwise'
-" NeoBundle 'vim-scripts/closetag.vim.git'
 NeoBundle 'scrooloose/syntastic.git'
 NeoBundle 'nelstrom/vim-markdown-folding'
 NeoBundle 'godlygeek/tabular'
@@ -58,6 +55,7 @@ NeoBundle 'Glench/Vim-Jinja2-Syntax'
 
 " Languages
 NeoBundle 'vim-ruby/vim-ruby'
+NeoBundle 'marijnh/tern_for_vim'
 
 " Colorschemes
 NeoBundle 'mrtazz/molokai.vim'
@@ -66,11 +64,12 @@ NeoBundle 'altercation/vim-colors-solarized'
 " Source control
 NeoBundle 'tpope/vim-fugitive'
 
-" Searching
+" Tagging & Searching
 NeoBundle 'wincent/Command-T'
 NeoBundle 'mileszs/ack.vim'
 NeoBundle 'haya14busa/incsearch.vim'
 NeoBundle 'haya14busa/vim-asterisk'
+NeoBundle 'majutsushi/tagbar'
 
 " External utils
 NeoBundle 'tpope/vim-tbone' " tmux
