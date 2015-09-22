@@ -62,6 +62,6 @@ nnoremap <leader>sv :source ~/.vimrc<cr>
 nnoremap <leader>Ev bd ~/.vimrc<cr>
 
 " Ex mode mappings
-cnoremap <C-a> <Home>
+" cnoremap <C-a> <Home>
 
 " Misc
