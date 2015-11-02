@@ -15,6 +15,7 @@ vmap <leader>lcgs yoconsole.group('<c-r>0');<esc>
 nmap <leader>lcge oconsole.groupEnd();<esc>
 nmap <leader>lcl oconsole.log('');<left><left><left>
 vmap <leader>lcl yoconsole.log('<c-r>0', <c-r>0);<esc>
+nmap <leader>lct oconsole.trace();<esc>
 
 
 """"""""""""""""""""""""""""""""""""""""
@@ -27,7 +28,9 @@ imap <c-cr> <esc>A;
 imap <m-cr> <esc>A;<cr>
 
 nmap <leader>lst osetTimeout(function() {<cr>}, );<left><left>
-vmap <leader>lst "0ygvcsetTimeout(function() {<cr>}, 1000);<esc><up>"0pgv=$%f1viw
+vmap <leader>lst "0ygvcsetTimeout(function() {<cr>}, 1000);<esc><up>"0p==gv=$%f1viw
+nmap <leader>lsi osetInterval(function() {<cr>}, );<left><left>
+vmap <leader>lsi "0ygvcsetInterval(function() {<cr>}, 1000);<esc><up>"0p==gv=$%f1viw
 
 
 

@@ -31,6 +31,7 @@ iabbrev bdrd: border-radius:
 iabbrev bdb: border-bottom:
 iabbrev bdl: border-left:
 iabbrev bdc: border-color:
+iabbrev bdw: border-width:
 iabbrev bxs: box-shadow:
 iabbrev ff: font-family:
 iabbrev fs: font-size:
