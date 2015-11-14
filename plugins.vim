@@ -40,6 +40,10 @@ NeoBundle 'Shougo/neosnippet.vim'
 NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'Shougo/neocomplete.vim'
 NeoBundle 'Raimondi/delimitMate'
+NeoBundleLazy 'facebook/vim-flow', {
+            \ 'autoload': {
+            \     'filetypes': 'javascript'
+            \ }}
 
 " File types
 NeoBundle 'tpope/vim-markdown'

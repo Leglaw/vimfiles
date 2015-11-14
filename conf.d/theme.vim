@@ -4,4 +4,3 @@ syntax enable
 set background=dark
 color solarized
 set synmaxcol=800           " don't try to highlight long lines
-
