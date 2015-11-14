@@ -13,7 +13,8 @@ set shiftwidth=2                  " an autoindent (with <<) is two spaces
 set autoindent
 set expandtab                     " use spaces, not tabs
 set list                          " Show invisible characters
-set listchars=tab:▸\ ,trail:•,extends:❯,precedes:❮
+" set listchars=tab:▸\ ,trail:•,extends:❯,precedes:❮
+set listchars=tab:▸\ ,trail:•
 set showbreak=↪\ 
 
 set backspace=indent,eol,start    " backspace through everything in insert mode
