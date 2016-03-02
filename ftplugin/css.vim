@@ -14,6 +14,7 @@ iabbrev mxh: max-height:
 iabbrev mnh: min-height:
 iabbrev pos: position:
 iabbrev f: float:
+iabbrev fl: float:
 iabbrev m: margin:
 iabbrev mt: margin-top:
 iabbrev mr: margin-right:
@@ -45,8 +46,12 @@ iabbrev va: vertical-align:
 iabbrev ta: text-align:
 iabbrev td: text-decoration:
 iabbrev ti: text-indent:
-iabbrev tt: text-transform:
+iabbrev tr: transition:
+iabbrev trd: transition-delay:
+iabbrev trp: transition-property:
+iabbrev trtf: transition-timing-function:
 iabbrev ts: text-shadow:
+iabbrev tt: text-transform:
 iabbrev c: color:
 iabbrev ls: letter-spacing:
 iabbrev d: display:
@@ -60,6 +65,7 @@ iabbrev bgs: background-size:
 iabbrev ws: white-space: nowrap;
 iabbrev z: z-index:
 iabbrev of: overflow:
+iabbrev op: opacity:
 iabbrev cur: cursor:
 iabbrev v: visibility:
 

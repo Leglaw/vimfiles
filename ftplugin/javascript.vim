@@ -21,10 +21,10 @@ nmap <leader>lct oconsole.trace();<esc>
 """"""""""""""""""""""""""""""""""""""""
 " Helpers
 """"""""""""""""""""""""""""""""""""""""
-nmap <c-cr> A;<esc>+
+nmap <leader>; A;<esc>+
 nmap <m-cr> A;<esc>+
 
-imap <c-cr> <esc>A;
+imap <leader>; <esc>A;
 imap <m-cr> <esc>A;<cr>
 
 nmap <leader>lst osetTimeout(function() {<cr>}, );<left><left>
@@ -32,12 +32,17 @@ vmap <leader>lst "0ygvcsetTimeout(function() {<cr>}, 1000);<esc><up>"0p==gv=$%f1
 nmap <leader>lsi osetInterval(function() {<cr>}, );<left><left>
 vmap <leader>lsi "0ygvcsetInterval(function() {<cr>}, 1000);<esc><up>"0p==gv=$%f1viw
 
+nmap <leader>ltc otry {<cr>} catch(e) {<cr>}<esc>
+vmap <leader>ltc "0ygvctry {<cr>} catch(e) {}<esc><up>"0p==gv=$%f1viw
 
+" Auto-indent matching brackets, parens, or braces
+imap <s-cr> <cr><cr><esc><up>S
+imap <leader><cr> <cr><cr><esc><up>S
 
 """"""""""""""""""""""""""""""""""""""""
 " Variables
 """"""""""""""""""""""""""""""""""""""""
-nmap <leader>lvt diwF,bPldt,la<c-r>"<esc>
+" nmap <leader>lvt diwF,bPldt,la<c-r>"<esc>
 
 
 " Auto syntax

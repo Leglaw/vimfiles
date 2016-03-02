@@ -27,6 +27,7 @@ nnoremap <c-l> <c-w><c-l>
 " Folding
 nnoremap <Space> za
 nnoremap <S-Space> zA
+nnoremap <leader>re :e<cr>
 nnoremap <leader>rt :retab<cr>
 " yank to system clipboard
 map <leader>y "*y
