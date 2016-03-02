@@ -1,3 +1,7 @@
+" Settings
+let g:html_indent_inctags="html,body,head,thead,tbody,p,li,dt,dd"
+
+" Mappings
 vmap <c-b> <s-s>tstrong>
 vmap <c-i> <s-s>tem>
 

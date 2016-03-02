@@ -59,5 +59,14 @@ nnoremap <d-enter> o
 if has("gui_macvim")
   " Fullscreen takes up entire screen
   set fuoptions=maxhorz,maxvert
-end
 
+  " Disable certain default mappings
+  macmenu &File.Print key=<nop>
+  macmenu &File.New\ Tab key=<nop>
+  macmenu &Tools.Make key=<nop>
+
+  " Remap
+  map <D-t> :CommandT<CR>
+
+  map <D-b> :make!<CR>
+endif
