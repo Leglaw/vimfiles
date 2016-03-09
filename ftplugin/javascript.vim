@@ -35,6 +35,10 @@ vmap <leader>lsi "0ygvcsetInterval(function() {<cr>}, 1000);<esc><up>"0p==gv=$%f
 nmap <leader>ltc otry {<cr>} catch(e) {<cr>}<esc>
 vmap <leader>ltc "0ygvctry {<cr>} catch(e) {}<esc><up>"0p==gv=$%f1viw
 
+" Pretty-align code
+nmap <leader>lac :Tabularize /=<cr>
+vmap <leader>lac y:Tabularize /<c-r>0<cr>
+
 " Auto-indent matching brackets, parens, or braces
 imap <s-cr> <cr><cr><esc><up>S
 imap <leader><cr> <cr><cr><esc><up>S
