@@ -40,7 +40,8 @@ NeoBundle 'godlygeek/tabular'
 NeoBundle 'PeterRincker/vim-argumentative'
 NeoBundle 'Shougo/neosnippet.vim'
 NeoBundle 'Shougo/neosnippet-snippets'
-NeoBundle 'Shougo/neocomplete.vim'
+" NeoBundle 'Shougo/neocomplete.vim'
+NeoBundle 'Valloric/YouCompleteMe'
 NeoBundle 'Raimondi/delimitMate'
 NeoBundleLazy 'facebook/vim-flow', {
             \ 'autoload': {
@@ -61,7 +62,7 @@ NeoBundle 'Glench/Vim-Jinja2-Syntax'
 
 " Languages
 NeoBundle 'vim-ruby/vim-ruby'
-NeoBundle 'marijnh/tern_for_vim'
+" NeoBundle 'marijnh/tern_for_vim'
 
 " Colorschemes
 NeoBundle 'mrtazz/molokai.vim'
