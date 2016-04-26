@@ -7,16 +7,18 @@ set visualbell
 
 set guioptions-=T   " No toolbar
 set guioptions-=r   " No scrollbars
+set guioptions-=R   " No scrollbars
 set guioptions-=l   " No scrollbars
 set guioptions-=L   " No scrollbars
 set guioptions-=b   " No scrollbars
 
-set guioptions-=m
-set guioptions-=g
+set guioptions-=m   " Menu bar present
+set guioptions-=g   " Grey menu items
+" set guioptions+=e   " Don't use guitablabel
 
-set guioptions+=i
-set guioptions+=M
-set guioptions+=v
+set guioptions+=i   " Use a Vim icon
+set guioptions+=M   " The system menu $VIMRUNTIME/menu.vim is not sourced.
+set guioptions+=v   " Use a vertical button layout for dialogs.
 
 " Quick RC editing
 nnoremap <leader>ev :tabedit ~/.vimrc<cr>:vsplit ~/.gvimrc<cr>

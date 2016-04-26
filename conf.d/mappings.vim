@@ -64,5 +64,6 @@ nnoremap <leader>Ev bd ~/.vimrc<cr>
 
 " Ex mode mappings
 " cnoremap <C-a> <Home>
+nnoremap <leader>vrd :redir @*> \|  \| redir END<left><left><left><left><left><left><left><left><left><left><left><left>
 
 " Misc
