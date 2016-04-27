@@ -16,4 +16,4 @@ nnoremap <leader>gd :Gdiff
 
 command! GdiffInTab tabedit %|vsplit|Gdiff
 nnoremap <leader>d :GdiffInTab<cr>
-nnoremap <leader>D :tabclose<cr>
+nnoremap <leader>D :tabclose<cr>gT
