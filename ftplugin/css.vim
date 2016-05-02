@@ -74,6 +74,8 @@ iabbrev ti: text-indent:
 iabbrev tf: transform:
 iabbrev tr: transition:
 iabbrev trd: transition-delay:
+iabbrev trdl: transition-delay:
+iabbrev trdr: transition-duration:
 iabbrev trp: transition-property:
 iabbrev trtf: transition-timing-function:
 iabbrev tof: text-overflow:
