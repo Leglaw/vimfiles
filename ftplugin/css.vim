@@ -72,6 +72,8 @@ iabbrev ta: text-align:
 iabbrev td: text-decoration:
 iabbrev ti: text-indent:
 iabbrev tf: transform:
+iabbrev tfo: transform-origin:
+iabbrev tfs: transform-style:
 iabbrev tr: transition:
 iabbrev trd: transition-delay:
 iabbrev trdl: transition-delay:
