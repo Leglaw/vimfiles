@@ -28,6 +28,7 @@ iabbrev pl: padding-left:
 
 iabbrev bd: border:
 iabbrev bdc: border-color:
+iabbrev bds: border-style:
 iabbrev bdw: border-width:
 iabbrev bdrd: border-radius:
 
