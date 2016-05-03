@@ -97,6 +97,8 @@ iabbrev bgs: background-size:
 iabbrev ws: white-space: nowrap;
 iabbrev z: z-index:
 iabbrev of: overflow:
+iabbrev ofx: overflow-x:
+iabbrev ofy: overflow-y:
 iabbrev op: opacity:
 iabbrev cur: cursor:
 iabbrev v: visibility:
