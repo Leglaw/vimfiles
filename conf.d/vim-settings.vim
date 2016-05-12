@@ -7,6 +7,8 @@ set hidden
 " Auto-reload buffers when file changed on disk
 set autoread
 
+set spellfile=~/.vim/spell/general.utf8.add
+
 " Disable swap files; systems don't crash that often these days
 set updatecount=0
 
