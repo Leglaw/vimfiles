@@ -5,6 +5,7 @@ nnoremap <leader>gm :Gmerge
 nnoremap <leader>gpu :Gpush 
 nnoremap <leader>gpl :Gpull 
 nnoremap <leader>gg :Ggrep 
+vnoremap <leader>gg y:Ggrep <c-r>0<cr>
 nnoremap <leader>glg :Glgrep 
 nnoremap <leader>glog :Glog<cr>
 nnoremap <leader>ge :Gedit 
