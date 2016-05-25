@@ -58,7 +58,7 @@ NeoBundle 'groenewege/vim-less'
 NeoBundle 'digitaltoad/vim-jade'
 NeoBundle 'chriseppstein/vim-haml'
 NeoBundle 'OrangeT/vim-csharp'
-NeoBundle 'Glench/Vim-Jinja2-Syntax'
+" NeoBundle 'Glench/Vim-Jinja2-Syntax'
 
 " Languages
 NeoBundle 'vim-ruby/vim-ruby'
