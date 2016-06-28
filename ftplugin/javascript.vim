@@ -10,6 +10,7 @@ nmap <leader>ldb odebugger;<esc>
 nmap <leader>ldw yiwodbgWatch('<c-r>0', <c-r>0);<esc>
 vmap <leader>ldw yodbgWatch('<c-r>0', <c-r>0);<esc>
 " Console related commands
+nmap <leader>lcc oconsole.clear();<esc>
 nmap <leader>lcgs oconsole.group('');<left><left><left>
 vmap <leader>lcgs yoconsole.group('<c-r>0');<esc>
 nmap <leader>lcge oconsole.groupEnd();<esc>
