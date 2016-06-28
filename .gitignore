@@ -1,6 +1,7 @@
 .netrwhist
 .netrwbook
 bundle/*
+plugged/*
 !bundle/neobundle.vim
 session/*
 spell/*
