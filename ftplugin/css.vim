@@ -8,6 +8,8 @@ iabbrev banner /**<cr> * Section: <cr>*/
 iabbrev h: height:
 iabbrev lh: line-height:
 iabbrev w: width:
+iabbrev wh50; width: 50%; height: 50%;
+iabbrev wh100; width: 100%; height: 100%;
 iabbrev mxw: max-width:
 iabbrev mnw: min-width:
 iabbrev mxh: max-height:
@@ -20,6 +22,7 @@ iabbrev mt: margin-top:
 iabbrev mr: margin-right:
 iabbrev mb: margin-bottom:
 iabbrev ml: margin-left:
+iabbrev mp0; margin: 0; padding: 0;
 iabbrev p: padding:
 iabbrev pt: padding-top:
 iabbrev pr: padding-right:
@@ -64,10 +67,14 @@ iabbrev ff: font-family:
 iabbrev fs: font-size:
 iabbrev fst: font-style:
 iabbrev fw: font-weight:
+iabbrev t: top:
+iabbrev tr0; top: 0; right: 0;
+iabbrev tl0; top: 0; left: 0;
 iabbrev r: right:
 iabbrev l: left:
-iabbrev t: top:
 iabbrev b: bottom:
+iabbrev br0; bottom: 0; right: 0;
+iabbrev bl0; bottom: 0; left: 0;
 iabbrev va: vertical-align:
 iabbrev ta: text-align:
 iabbrev td: text-decoration:
