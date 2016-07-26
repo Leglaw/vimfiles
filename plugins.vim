@@ -26,6 +26,7 @@ NeoBundle 'tpope/vim-repeat'
 NeoBundle 'tpope/vim-obsession'
 NeoBundle 'sjl/gundo.vim.git'
 NeoBundle 'nelstrom/vim-qargs' " quickfix to args
+NeoBundle 'Shougo/unite.vim'
 
 " Text editing
 NeoBundle 'tpope/vim-commentary'
@@ -38,30 +39,43 @@ NeoBundle 'scrooloose/syntastic.git'
 NeoBundle 'nelstrom/vim-markdown-folding'
 NeoBundle 'godlygeek/tabular'
 NeoBundle 'PeterRincker/vim-argumentative'
-NeoBundle 'Shougo/neosnippet.vim'
-NeoBundle 'Shougo/neosnippet-snippets'
+" NeoBundle 'Shougo/neosnippet.vim'
+" NeoBundle 'Shougo/neosnippet-snippets'
 " NeoBundle 'Shougo/neocomplete.vim'
 NeoBundle 'Valloric/YouCompleteMe'
 NeoBundle 'Raimondi/delimitMate'
-NeoBundleLazy 'facebook/vim-flow', {
-            \ 'autoload': {
-            \     'filetypes': 'javascript'
-            \ }}
+" NeoBundleLazy 'facebook/vim-flow', {
+"             \ 'autoload': {
+"             \     'filetypes': 'javascript'
+"             \ }}
 
 " File types
 NeoBundle 'tpope/vim-markdown'
 NeoBundle 'tpope/vim-liquid'
-NeoBundle 'tpope/vim-rails'
+" NeoBundle 'tpope/vim-rails'
 NeoBundle 'pangloss/vim-javascript'
-NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'leafgarland/typescript-vim'
+" NeoBundle 'Shougo/vimproc.vim', {
+"         \ 'build' : {
+"         \     'windows' : 'tools\\update-dll-mingw',
+"         \     'cygwin' : 'make -f make_cygwin.mak',
+"         \     'mac' : 'make -f make_mac.mak',
+"         \     'linux' : 'make',
+"         \     'unix' : 'gmake',
+"         \    },
+"         \ }
+" NeoBundle 'Quramy/tsuquyomi'
+" NeoBundle 'Quramy/vim-dtsm'
+" NeoBundle 'mhartington/vim-typings'
+" NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'groenewege/vim-less'
 NeoBundle 'digitaltoad/vim-jade'
-NeoBundle 'chriseppstein/vim-haml'
-NeoBundle 'OrangeT/vim-csharp'
+" NeoBundle 'chriseppstein/vim-haml'
+" NeoBundle 'OrangeT/vim-csharp'
 " NeoBundle 'Glench/Vim-Jinja2-Syntax'
 
 " Languages
-NeoBundle 'vim-ruby/vim-ruby'
+" NeoBundle 'vim-ruby/vim-ruby'
 " NeoBundle 'marijnh/tern_for_vim'
 
 " Colorschemes
