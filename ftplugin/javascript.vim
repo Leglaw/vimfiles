@@ -24,9 +24,11 @@ nmap <leader>lct oconsole.trace();<esc>
 """"""""""""""""""""""""""""""""""""""""
 nmap <leader>; A;<esc>+
 nmap <m-cr> A;<esc>+
+nmap <c-cr> A;<esc>+
 
 imap <leader>; <esc>A;
 imap <m-cr> <esc>A;<cr>
+imap <c-cr> <esc>A;<cr>
 
 nmap <leader>lst osetTimeout(function() {<cr>}, );<left><left>
 vmap <leader>lst "0ygvcsetTimeout(function() {<cr>}, 1000);<esc><up>"0p==gv=$%f1viw

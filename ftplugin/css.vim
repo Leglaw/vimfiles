@@ -5,6 +5,8 @@ nmap <leader>lq ^f{ci{<cr><cr><up><c-r>"<esc>:s/;/;\r/gg<cr>dd?{<cr>=%:nohl<cr>
 
 
 iabbrev banner /**<cr> * Section: <cr>*/
+iabbrev bxsz: box-sizing:
+iabbrev h: height:
 iabbrev h: height:
 iabbrev lh: line-height:
 iabbrev w: width:
