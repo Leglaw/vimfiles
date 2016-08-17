@@ -8,12 +8,15 @@ call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-sensible'
 Plug 'editorconfig/editorconfig-vim'
 
-" Vim fixes / enhancements
+" UI enhancements
+Plug 'sjl/gundo.vim'
+Plug 'Shougo/unite.vim'
+Plug 'vim-airline/vim-airline'
+
+" Vim functionality fixes / enhancements
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-obsession'
-Plug 'sjl/gundo.vim.git'
 Plug 'nelstrom/vim-qargs' " quickfix to args
-Plug 'Shougo/unite.vim'
 
 " Text editing
 Plug 'tpope/vim-commentary'
@@ -22,7 +25,7 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-ragtag'
 Plug 'mattn/emmet-vim'
-Plug 'scrooloose/syntastic.git'
+Plug 'scrooloose/syntastic'
 Plug 'nelstrom/vim-markdown-folding'
 Plug 'godlygeek/tabular'
 Plug 'PeterRincker/vim-argumentative'
