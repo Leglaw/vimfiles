@@ -44,6 +44,7 @@ Plug 'tpope/vim-markdown'
 Plug 'tpope/vim-liquid'
 " Plug 'tpope/vim-rails'
 Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 Plug 'leafgarland/typescript-vim'
 " Plug 'Shougo/vimproc.vim', {
 "         \ 'build' : {

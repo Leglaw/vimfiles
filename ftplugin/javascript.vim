@@ -3,6 +3,9 @@
 """"""""""""""""""""""""""""""""""""""""
 set foldmethod=marker
 
+" let g:syntastic_javascript_checkers = ["vjsstandard"]
+let g:syntastic_typescript_checkers = ["tslint"]
+
 """"""""""""""""""""""""""""""""""""""""
 " Debugging
 """"""""""""""""""""""""""""""""""""""""
