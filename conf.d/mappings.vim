@@ -23,6 +23,10 @@ nnoremap <c-j> <c-w><c-j>
 nnoremap <c-k> <c-w><c-k>
 nnoremap <c-l> <c-w><c-l>
 
+" Tab mappings
+nnoremap <leader>tc :tabclose<cr>
+nnoremap <leader>tm0 :tabmove0<cr>
+
 " Editing
 " Folding
 nnoremap <Space> za
