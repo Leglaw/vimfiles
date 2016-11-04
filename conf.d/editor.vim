@@ -1,7 +1,7 @@
 runtime macros/matchit.vim  " enables % to cycle through `if/else/endif`
 
 set scrolloff=3    " have some context around the current line always on screen
-set scrolljump=-50 " when j/k to scroll, position scroll position to middle of window
+set scrolljump=15 " when j/k to scroll, position scroll position to middle of window
 set cursorline     " highlight the line of the cursor
 set cursorcolumn   " highlight the column of the cursor
 set number         " show line numbers
