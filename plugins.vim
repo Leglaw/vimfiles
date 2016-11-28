@@ -5,7 +5,9 @@ call plug#begin('~/.vim/plugged')
 
 
 " Settings
-Plug 'tpope/vim-sensible'
+if !has('nvim')
+  " Plug 'tpope/vim-sensible'
+endif
 Plug 'editorconfig/editorconfig-vim'
 
 " UI enhancements
