@@ -34,7 +34,8 @@ nnoremap <S-Space> zA
 nnoremap <leader>re :e<cr>
 nnoremap <leader>rt :retab<cr>
 " yank to system clipboard
-map <leader>y "*y
+nnoremap <leader>y "*yiw
+vnoremap <leader>y "*y
 " copy entire buffer to system clipboard and return to current line
 map <leader>c gg"*yG``
 " paste lines from unnamed register and fix indentation
