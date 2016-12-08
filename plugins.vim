@@ -93,7 +93,7 @@ Plug 'tpope/vim-dispatch' " async compile
 Plug 'rizzatti/dash.vim' " Dash API lookup
 
 " Meta
-Plug 'tpope/vim-flagship'
+" Plug 'tpope/vim-flagship'
 Plug 'tpope/vim-scriptease'
 Plug 'tpope/vim-projectionist'
 
