@@ -19,6 +19,9 @@ vmap <leader>lcgs yoconsole.group('<c-r>0');<esc>
 nmap <leader>lcge oconsole.groupEnd();<esc>
 nmap <leader>lcl oconsole.log('');<left><left><left>
 vmap <leader>lcl yoconsole.log('<c-r>0', <c-r>0);<esc>
+nmap <leader>lcb yiwoconsole.table('<c-r>0', <c-r>0);<esc>
+vmap <leader>lcb yoconsole.table('<c-r>0', <c-r>0);<esc>
+
 nmap <leader>lct oconsole.trace();<esc>
 
 
