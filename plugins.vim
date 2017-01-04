@@ -68,6 +68,7 @@ Plug 'digitaltoad/vim-jade'
 " Plug 'Glench/Vim-Jinja2-Syntax'
 
 " Languages
+Plug 'keith/swift.vim'
 " Plug 'vim-ruby/vim-ruby'
 " Plug 'marijnh/tern_for_vim'
 
