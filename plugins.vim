@@ -69,6 +69,7 @@ Plug 'digitaltoad/vim-jade'
 
 " Languages
 Plug 'keith/swift.vim'
+Plug 'lambdatoast/elm.vim'
 " Plug 'vim-ruby/vim-ruby'
 " Plug 'marijnh/tern_for_vim'
 
