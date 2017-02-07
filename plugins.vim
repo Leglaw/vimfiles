@@ -41,13 +41,15 @@ Plug 'Raimondi/delimitMate'
 "             \     'filetypes': 'javascript'
 "             \ }}
 
-" File types
-Plug 'tpope/vim-markdown'
-Plug 'tpope/vim-liquid'
 " Plug 'tpope/vim-rails'
-Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
-Plug 'leafgarland/typescript-vim'
+
+" File types
+Plug 'sheerun/vim-polyglot'
+" Plug 'OrangeT/vim-csharp'
+" Plug 'pallets/jinja'
+" Plug 'Quramy/tsuquyomi'
+" Plug 'Quramy/vim-dtsm'
+" Plug 'mhartington/vim-typings'
 " Plug 'Shougo/vimproc.vim', {
 "         \ 'build' : {
 "         \     'windows' : 'tools\\update-dll-mingw',
@@ -57,22 +59,8 @@ Plug 'leafgarland/typescript-vim'
 "         \     'unix' : 'gmake',
 "         \    },
 "         \ }
-" Plug 'Quramy/tsuquyomi'
-" Plug 'Quramy/vim-dtsm'
-" Plug 'mhartington/vim-typings'
-" Plug 'kchmck/vim-coffee-script'
-Plug 'groenewege/vim-less'
-Plug 'digitaltoad/vim-jade'
-Plug 'othree/html5.vim'
-Plug 'ekalinin/Dockerfile.vim'
-" Plug 'chriseppstein/vim-haml'
-" Plug 'OrangeT/vim-csharp'
-" Plug 'Glench/Vim-Jinja2-Syntax'
 
 " Languages
-Plug 'keith/swift.vim'
-Plug 'lambdatoast/elm.vim'
-" Plug 'vim-ruby/vim-ruby'
 " Plug 'marijnh/tern_for_vim'
 
 " Colorschemes
