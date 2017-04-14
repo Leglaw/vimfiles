@@ -1,61 +1,56 @@
 " Note: Skip initialization for vim-tiny or vim-small.
 if 0 | endif
 
-if has('vim_starting')
-  if &compatible
-    set nocompatible               " Be iMproved
-  endif
+call plug#begin('~/.vim/plugged')
 
-  " Required:
-  set runtimepath+=~/.vim/bundle/neobundle.vim/
-endif
-
-" Required:
-call neobundle#begin(expand('~/.vim/bundle/'))
-
-" Let NeoBundle manage NeoBundle
-" Required:
-NeoBundleFetch 'Shougo/neobundle.vim'
 
 " Settings
-NeoBundle 'tpope/vim-sensible'
-NeoBundle 'editorconfig/editorconfig-vim'
+if !has('nvim')
+  " Plug 'tpope/vim-sensible'
+endif
+Plug 'editorconfig/editorconfig-vim'
 
-" Vim fixes / enhancements
-NeoBundle 'tpope/vim-repeat'
-NeoBundle 'tpope/vim-obsession'
-NeoBundle 'sjl/gundo.vim.git'
-NeoBundle 'nelstrom/vim-qargs' " quickfix to args
-NeoBundle 'Shougo/unite.vim'
+" UI enhancements
+Plug 'sjl/gundo.vim'
+Plug 'Shougo/unite.vim'
+Plug 'vim-airline/vim-airline'
+
+" Vim functionality fixes / enhancements
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-obsession'
+Plug 'nelstrom/vim-qargs' " quickfix to args
 
 " Text editing
-NeoBundle 'tpope/vim-commentary'
-NeoBundle 'tpope/vim-surround'
-NeoBundle 'tpope/vim-unimpaired'
-NeoBundle 'tpope/vim-endwise'
-NeoBundle 'tpope/vim-ragtag'
-NeoBundle 'mattn/emmet-vim'
-NeoBundle 'scrooloose/syntastic.git'
-NeoBundle 'nelstrom/vim-markdown-folding'
-NeoBundle 'godlygeek/tabular'
-NeoBundle 'PeterRincker/vim-argumentative'
-" NeoBundle 'Shougo/neosnippet.vim'
-" NeoBundle 'Shougo/neosnippet-snippets'
-" NeoBundle 'Shougo/neocomplete.vim'
-NeoBundle 'Valloric/YouCompleteMe'
-NeoBundle 'Raimondi/delimitMate'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-ragtag'
+Plug 'mattn/emmet-vim'
+Plug 'scrooloose/syntastic'
+Plug 'nelstrom/vim-markdown-folding'
+Plug 'godlygeek/tabular'
+Plug 'PeterRincker/vim-argumentative'
+" Plug 'Shougo/neosnippet.vim'
+" Plug 'Shougo/neosnippet-snippets'
+" Plug 'Shougo/neocomplete.vim'
+Plug 'Valloric/YouCompleteMe'
+Plug 'Raimondi/delimitMate'
 " NeoBundleLazy 'facebook/vim-flow', {
 "             \ 'autoload': {
 "             \     'filetypes': 'javascript'
 "             \ }}
 
+" Plug 'tpope/vim-rails'
+
 " File types
-NeoBundle 'tpope/vim-markdown'
-NeoBundle 'tpope/vim-liquid'
-" NeoBundle 'tpope/vim-rails'
-NeoBundle 'pangloss/vim-javascript'
-NeoBundle 'leafgarland/typescript-vim'
-" NeoBundle 'Shougo/vimproc.vim', {
+Plug 'sheerun/vim-polyglot'
+" Plug 'OrangeT/vim-csharp'
+" Plug 'pallets/jinja'
+" Plug 'Quramy/tsuquyomi'
+" Plug 'Quramy/vim-dtsm'
+" Plug 'mhartington/vim-typings'
+" Plug 'Shougo/vimproc.vim', {
 "         \ 'build' : {
 "         \     'windows' : 'tools\\update-dll-mingw',
 "         \     'cygwin' : 'make -f make_cygwin.mak',
@@ -64,53 +59,37 @@ NeoBundle 'leafgarland/typescript-vim'
 "         \     'unix' : 'gmake',
 "         \    },
 "         \ }
-" NeoBundle 'Quramy/tsuquyomi'
-" NeoBundle 'Quramy/vim-dtsm'
-" NeoBundle 'mhartington/vim-typings'
-" NeoBundle 'kchmck/vim-coffee-script'
-NeoBundle 'groenewege/vim-less'
-NeoBundle 'digitaltoad/vim-jade'
-" NeoBundle 'chriseppstein/vim-haml'
-" NeoBundle 'OrangeT/vim-csharp'
-" NeoBundle 'Glench/Vim-Jinja2-Syntax'
 
 " Languages
-" NeoBundle 'vim-ruby/vim-ruby'
-" NeoBundle 'marijnh/tern_for_vim'
+" Plug 'marijnh/tern_for_vim'
 
 " Colorschemes
-NeoBundle 'mrtazz/molokai.vim'
-NeoBundle 'altercation/vim-colors-solarized'
+Plug 'mrtazz/molokai.vim'
+Plug 'altercation/vim-colors-solarized'
 
 " Source control
-NeoBundle 'tpope/vim-fugitive'
+Plug 'tpope/vim-fugitive'
 
 " Tagging & Searching
-NeoBundle 'wincent/Command-T'
-NeoBundle 'mileszs/ack.vim'
-NeoBundle 'haya14busa/incsearch.vim'
-NeoBundle 'haya14busa/vim-asterisk'
-NeoBundle 'majutsushi/tagbar'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+Plug 'mileszs/ack.vim'
+Plug 'haya14busa/incsearch.vim'
+Plug 'haya14busa/vim-asterisk'
+Plug 'majutsushi/tagbar'
 
 " External utils
-NeoBundle 'tpope/vim-tbone' " tmux
-NeoBundle 'tpope/vim-eunuch' " file system
-NeoBundle 'tpope/vim-dispatch' " async compile
-NeoBundle 'rizzatti/dash.vim.git' " Dash API lookup
-" NeoBundle 'jgdavey/vim-turbux' " ruby testing
-" NeoBundle 'christoomey/vim-tmux-navigator'
-" NeoBundle 'benmills/vimux'
+Plug 'tpope/vim-tbone' " tmux
+Plug 'tpope/vim-eunuch' " file system
+Plug 'tpope/vim-dispatch' " async compile
+Plug 'rizzatti/dash.vim' " Dash API lookup
 
 " Meta
-NeoBundle 'tpope/vim-flagship'
-NeoBundle 'tpope/vim-scriptease'
-NeoBundle 'tpope/vim-projectionist'
+" Plug 'tpope/vim-flagship'
+Plug 'tpope/vim-scriptease'
+Plug 'tpope/vim-projectionist'
 
-call neobundle#end()
+call plug#end()
 
 " Required:
 filetype plugin indent on
-
-" If there are uninstalled bundles found on startup,
-" this will conveniently prompt you to install them.
-NeoBundleCheck
