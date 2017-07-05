@@ -34,7 +34,10 @@ Plug 'PeterRincker/vim-argumentative'
 " Plug 'Shougo/neosnippet.vim'
 " Plug 'Shougo/neosnippet-snippets'
 " Plug 'Shougo/neocomplete.vim'
-Plug 'Valloric/YouCompleteMe'
+Plug 'Valloric/YouCompleteMe', {
+      \   'dir': '~/.vim/plugged/YouCompleteMe',
+      \   'do': './install.py --tern-completer --omnisharp-completer'
+      \ }
 Plug 'Raimondi/delimitMate'
 " NeoBundleLazy 'facebook/vim-flow', {
 "             \ 'autoload': {
@@ -61,7 +64,7 @@ Plug 'sheerun/vim-polyglot'
 "         \ }
 
 " Languages
-" Plug 'marijnh/tern_for_vim'
+Plug 'OmniSharp/omnisharp-vim'
 
 " Colorschemes
 Plug 'mrtazz/molokai.vim'
