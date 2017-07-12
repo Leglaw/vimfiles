@@ -22,8 +22,8 @@ nnoremap <c-h> <c-w><c-h>
 nnoremap <c-j> <c-w><c-j>
 nnoremap <c-k> <c-w><c-k>
 nnoremap <c-l> <c-w><c-l>
+nnoremap <c-w>B :Tex<cr>
 nnoremap <c-w>S :Sex<cr>
-nnoremap <c-w>T :Tex<cr>
 nnoremap <c-w>V :Vex<cr>
 
 " Tab mappings
