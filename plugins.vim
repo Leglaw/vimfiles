@@ -37,7 +37,7 @@ Plug 'PeterRincker/vim-argumentative'
 " Plug 'Shougo/neocomplete.vim'
 Plug 'Valloric/YouCompleteMe', {
       \   'dir': '~/.vim/plugged/YouCompleteMe',
-      \   'do': './install.py --tern-completer --omnisharp-completer'
+      \   'do': './install.py --tern-completer --omnisharp-completer --clang-completer'
       \ }
 Plug 'Raimondi/delimitMate'
 " NeoBundleLazy 'facebook/vim-flow', {
