@@ -35,10 +35,12 @@ Plug 'PeterRincker/vim-argumentative'
 " Plug 'Shougo/neosnippet.vim'
 " Plug 'Shougo/neosnippet-snippets'
 " Plug 'Shougo/neocomplete.vim'
-Plug 'Valloric/YouCompleteMe', {
-      \   'dir': '~/.vim/plugged/YouCompleteMe',
-      \   'do': './install.py --tern-completer --omnisharp-completer --clang-completer'
-      \ }
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'mhartington/nvim-typescript'
+" Plug 'Valloric/YouCompleteMe', {
+"       \   'dir': '~/.vim/plugged/YouCompleteMe',
+"       \   'do': './install.py --tern-completer --omnisharp-completer --clang-completer'
+"       \ }
 Plug 'Raimondi/delimitMate'
 " NeoBundleLazy 'facebook/vim-flow', {
 "             \ 'autoload': {
