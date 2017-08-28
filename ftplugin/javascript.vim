@@ -17,6 +17,8 @@ nmap <leader>lcc oconsole.clear();<esc>
 nmap <leader>lcgs oconsole.group('');<left><left><left>
 vmap <leader>lcgs yoconsole.group('<c-r>0');<esc>
 nmap <leader>lcge oconsole.groupEnd();<esc>
+nmap <leader>lcd oconsole.debug('');<left><left><left>
+vmap <leader>lcd yoconsole.debug('<c-r>0', <c-r>0);<esc>
 nmap <leader>lcl oconsole.log('');<left><left><left>
 vmap <leader>lcl yoconsole.log('<c-r>0', <c-r>0);<esc>
 nmap <leader>lcb yiwoconsole.table('<c-r>0', <c-r>0);<esc>
