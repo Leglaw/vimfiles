@@ -37,6 +37,7 @@ Plug 'PeterRincker/vim-argumentative'
 " Plug 'Shougo/neocomplete.vim'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'mhartington/nvim-typescript'
+Plug 'HerringtonDarkholme/yats.vim'
 " Plug 'Valloric/YouCompleteMe', {
 "       \   'dir': '~/.vim/plugged/YouCompleteMe',
 "       \   'do': './install.py --tern-completer --omnisharp-completer --clang-completer'
