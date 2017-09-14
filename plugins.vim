@@ -26,9 +26,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-ragtag'
-Plug 'Chiel92/vim-autoformat'
 Plug 'mattn/emmet-vim'
-Plug 'scrooloose/syntastic'
 Plug 'nelstrom/vim-markdown-folding'
 Plug 'godlygeek/tabular'
 Plug 'PeterRincker/vim-argumentative'
@@ -69,6 +67,8 @@ Plug 'sheerun/vim-polyglot'
 
 " Languages
 Plug 'OmniSharp/omnisharp-vim'
+" Plug 'scrooloose/syntastic'
+Plug 'Chiel92/vim-autoformat'
 
 " Colorschemes
 Plug 'mrtazz/molokai.vim'
