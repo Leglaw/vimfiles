@@ -67,7 +67,7 @@ Plug 'sheerun/vim-polyglot'
 
 " Languages
 Plug 'OmniSharp/omnisharp-vim'
-" Plug 'scrooloose/syntastic'
+Plug 'scrooloose/syntastic'
 Plug 'Chiel92/vim-autoformat'
 
 " Colorschemes
@@ -86,7 +86,7 @@ Plug 'haya14busa/vim-asterisk'
 Plug 'majutsushi/tagbar'
 
 " External utils
-Plug 'tpope/vim-tbone' " tmux
+" Plug 'tpope/vim-tbone' " tmux
 Plug 'tpope/vim-eunuch' " file system
 Plug 'tpope/vim-dispatch' " async compile
 Plug 'rizzatti/dash.vim' " Dash API lookup
