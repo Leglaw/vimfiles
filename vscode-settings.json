@@ -1,0 +1,33 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.renderWhitespace": "all",
+    "workbench.sideBar.location": "left",
+    "editor.formatOnSave": true,
+    "vim.enableNeovim": true,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.neovimPath": "/usr/local/bin/nvim",
+    "vim.textwidth": 110,
+    "vim.easymotion": true,
+    "vim.hlsearch": true,
+    "vim.statusBarColors": {
+        "normal": "#005f5f",
+        "insert": "#5f0000",
+        "visual": "#5f00af",
+        "visualline": "#005f87",
+        "visualblock": "#86592d",
+        "replace": "#000000"
+    },
+    "vim.visualstar": true,
+    "vim.otherModesKeyBindingsNonRecursive": [{
+        "before": ["leader", "w"],
+        "after": [],
+        "commands": [{
+            "command": "workbench.action.files.save",
+            "args": []
+        }]
+    }],
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#ffff0033"
+    }
+}
