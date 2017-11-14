@@ -5,3 +5,4 @@ let g:netrw_list_hide = '^\(\.sass-cache\)'
 let g:netrw_list_hide += '.*\.\(png|ico\)$'
 let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
 
+nmap <unique> <c-r> <Plug>NetrwRefresh
