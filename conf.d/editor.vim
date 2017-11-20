@@ -1,11 +1,13 @@
 runtime macros/matchit.vim  " enables % to cycle through `if/else/endif`
 
-set scrolloff=3    " have some context around the current line always on screen
-set scrolljump=15 " when j/k to scroll, position scroll position to middle of window
-set cursorline     " highlight the line of the cursor
-set cursorcolumn   " highlight the column of the cursor
-set number         " show line numbers
-set relativenumber " ... relative to current line
+set scrolloff=3                   " have some context around the current line always on screen
+set scrolljump=15                 " when j/k to scroll, position scroll position to middle of window
+set cursorline                    " highlight the line of the cursor
+set cursorcolumn                  " highlight the column of the cursor
+set colorcolumn=+1,+2             " highlight columns which exceed textwidth
+set number                        " show line numbers
+set relativenumber                " ... relative to current line
+set textwidth=80
 
 "" Whitespace
 set nowrap                        " don't wrap lines
