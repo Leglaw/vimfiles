@@ -23,6 +23,8 @@ nmap <leader>lcl oconsole.log('');<left><left><left>
 vmap <leader>lcl yoconsole.log('<c-r>0', <c-r>0);<esc>
 nmap <leader>lcb yiwoconsole.table('<c-r>0', <c-r>0);<esc>
 vmap <leader>lcb yoconsole.table('<c-r>0', <c-r>0);<esc>
+nmap <leader>lca oconsole.assert();<esc>
+vmap <leader>lcb yoconsole.assert(<c-r>0, '<c-r>0');<esc>
 
 nmap <leader>lct oconsole.trace();<esc>
 
