@@ -14,6 +14,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'sjl/gundo.vim'
 Plug 'Shougo/unite.vim'
 Plug 'vim-airline/vim-airline'
+Plug 'ryanoasis/vim-devicons'
 
 " Vim functionality fixes / enhancements
 Plug 'tpope/vim-repeat'
