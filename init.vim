@@ -1,1 +1,1 @@
-/Users/chess/.vimrc
+./vimrc
