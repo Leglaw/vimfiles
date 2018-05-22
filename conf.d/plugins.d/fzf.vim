@@ -1,14 +1,19 @@
 set rtp+=/usr/local/opt/fzf
 
 " Basic mappings
+nmap <silent> <leader>fa :Ag<cr>
 nmap <silent> <leader>fb :Buffers<cr>
 nmap <silent> <leader>fc :Colors<cr>
 nmap <silent> <leader>fhc :History:<cr>
 nmap <silent> <leader>fhs :History/<cr>
 nmap <silent> <leader>fF :Files<cr>
 nmap <silent> <leader>ff :GitFiles<cr>
+nmap <silent> <leader>ffc :execute ":GitFiles ". fnamemodify('<c-r>%', ':p:h')<cr>
+nmap <silent> <leader>ff. :execute ":GitFiles ". fnamemodify('.', ':p')<cr>
 nmap <silent> <leader>fgb :Bcommits<cr>
 nmap <silent> <leader>fgc :Commits<cr>
+nmap <silent> <leader>flb :BLines<cr>
+nmap <silent> <leader>fll :Lines<cr>
 nmap <silent> <leader>fs :Snippets<cr>
 nmap <silent> <leader>ft :Tags<cr>
 
