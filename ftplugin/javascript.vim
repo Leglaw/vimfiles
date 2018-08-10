@@ -16,11 +16,17 @@ vmap <leader>ldw yodbgWatch('<c-r>0', <c-r>0);<esc>
 nmap <leader>lcc oconsole.clear();<esc>
 nmap <leader>lcgs oconsole.group('');<left><left><left>
 vmap <leader>lcgs yoconsole.group('<c-r>0');<esc>
+nmap <leader>lcgc oconsole.groupCollapsed('');<left><left><left>
+vmap <leader>lcgc yoconsole.groupCollapsed('<c-r>0');<esc>
 nmap <leader>lcge oconsole.groupEnd();<esc>
 nmap <leader>lcd oconsole.debug('');<left><left><left>
 vmap <leader>lcd yoconsole.debug('<c-r>0', <c-r>0);<esc>
 nmap <leader>lcl oconsole.log('');<left><left><left>
 vmap <leader>lcl yoconsole.log('<c-r>0', <c-r>0);<esc>
+nmap <leader>lcw oconsole.warn('');<left><left><left>
+vmap <leader>lcw yoconsole.warn('<c-r>0', <c-r>0);<esc>
+nmap <leader>lcps oconsole.profile();<esc>
+nmap <leader>lcpe oconsole.profileEnd();<esc>
 nmap <leader>lcb yiwoconsole.table('<c-r>0', <c-r>0);<esc>
 vmap <leader>lcb yoconsole.table('<c-r>0', <c-r>0);<esc>
 nmap <leader>lca oconsole.assert();<esc>
