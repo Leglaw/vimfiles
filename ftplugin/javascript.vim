@@ -12,25 +12,41 @@ let g:syntastic_typescript_checkers = ["tslint"]
 nmap <leader>ldb odebugger;<esc>
 nmap <leader>ldw yiwodbgWatch('<c-r>0', <c-r>0);<esc>
 vmap <leader>ldw yodbgWatch('<c-r>0', <c-r>0);<esc>
+
 " Console related commands
 nmap <leader>lcc oconsole.clear();<esc>
+
 nmap <leader>lcgs oconsole.group('');<left><left><left>
 vmap <leader>lcgs yoconsole.group('<c-r>0');<esc>
 nmap <leader>lcgc oconsole.groupCollapsed('');<left><left><left>
 vmap <leader>lcgc yoconsole.groupCollapsed('<c-r>0');<esc>
 nmap <leader>lcge oconsole.groupEnd();<esc>
+
 nmap <leader>lcd oconsole.debug('');<left><left><left>
 vmap <leader>lcd yoconsole.debug('<c-r>0', <c-r>0);<esc>
 nmap <leader>lcl oconsole.log('');<left><left><left>
 vmap <leader>lcl yoconsole.log('<c-r>0', <c-r>0);<esc>
 nmap <leader>lcw oconsole.warn('');<left><left><left>
 vmap <leader>lcw yoconsole.warn('<c-r>0', <c-r>0);<esc>
-nmap <leader>lcps oconsole.profile();<esc>
-nmap <leader>lcpe oconsole.profileEnd();<esc>
-nmap <leader>lcb yiwoconsole.table('<c-r>0', <c-r>0);<esc>
-vmap <leader>lcb yoconsole.table('<c-r>0', <c-r>0);<esc>
+nmap <leader>lce oconsole.error('');<left><left><left>
+vmap <leader>lce yoconsole.error('<c-r>0', <c-r>0);<esc>
 nmap <leader>lca oconsole.assert();<esc>
 vmap <leader>lcb yoconsole.assert(<c-r>0, '<c-r>0');<esc>
+
+nmap <leader>lcr yiwoconsole.dir('<c-r>0', <c-r>0);<esc>
+vmap <leader>lcr yoconsole.dir('<c-r>0', <c-r>0);<esc>
+nmap <leader>lcx yiwoconsole.dirxml('<c-r>0', <c-r>0);<esc>
+vmap <leader>lcx yoconsole.dirxml('<c-r>0', <c-r>0);<esc>
+nmap <leader>lcb yiwoconsole.table('<c-r>0', <c-r>0);<esc>
+vmap <leader>lcb yoconsole.table('<c-r>0', <c-r>0);<esc>
+
+nmap <leader>lcps oconsole.profile();<esc>
+nmap <leader>lcpe oconsole.profileEnd();<esc>
+
+nmap <leader>lcts oconsole.time();<esc>
+nmap <leader>lctl oconsole.timeLog();<esc>
+nmap <leader>lctm oconsole.timeStamp();<esc>
+nmap <leader>lcte oconsole.timeEnd();<esc>
 
 nmap <leader>lct oconsole.trace();<esc>
 
