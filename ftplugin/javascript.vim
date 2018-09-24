@@ -48,7 +48,7 @@ nmap <leader>lctl oconsole.timeLog();<esc>
 nmap <leader>lctm oconsole.timeStamp();<esc>
 nmap <leader>lcte oconsole.timeEnd();<esc>
 
-nmap <leader>lct oconsole.trace();<esc>
+nmap <leader>lctr oconsole.trace();<esc>
 
 
 """"""""""""""""""""""""""""""""""""""""
