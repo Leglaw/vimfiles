@@ -10,7 +10,7 @@ nmap <silent> <leader>fF :Files<cr>
 nmap <silent> <leader>ffg :GitFiles<cr>
 nmap <silent> <leader>ffc :execute ":GitFiles ". fnamemodify('<c-r>%', ':p:h')<cr>
 nmap <silent> <leader>ff. :execute ":GitFiles ". fnamemodify('.', ':p')<cr>
-nmap <silent> <leader>fgb :Bcommits<cr>
+nmap <silent> <leader>fgb :BCommits<cr>
 nmap <silent> <leader>fgc :Commits<cr>
 nmap <silent> <leader>flb :BLines<cr>
 nmap <silent> <leader>fll :Lines<cr>
