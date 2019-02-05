@@ -68,7 +68,7 @@ Plug 'sheerun/vim-polyglot'
 "         \ }
 
 " Languages
-Plug 'OmniSharp/omnisharp-vim'
+" Plug 'OmniSharp/omnisharp-vim'
 Plug 'scrooloose/syntastic'
 Plug 'Chiel92/vim-autoformat'
 

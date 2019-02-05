@@ -2,6 +2,7 @@
 " Settings
 """"""""""""""""""""""""""""""""""""""""
 set foldmethod=manual
+set ts=2 sw=2
 
 " let g:syntastic_javascript_checkers = ["vjsstandard"]
 let g:syntastic_typescript_checkers = ["tslint"]
