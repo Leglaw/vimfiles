@@ -7,7 +7,7 @@ set cursorcolumn                  " highlight the column of the cursor
 set colorcolumn=+1,+2             " highlight columns which exceed textwidth
 set number                        " show line numbers
 set relativenumber                " ... relative to current line
-set textwidth=80
+set textwidth=120
 
 "" Whitespace
 set nowrap                        " don't wrap lines
