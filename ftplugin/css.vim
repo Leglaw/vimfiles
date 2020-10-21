@@ -58,7 +58,6 @@ iabbrev d: display:
 
 iabbrev f: float:
 iabbrev ff: font-family:
-iabbrev fl: float:
 
 iabbrev flf: flex-flow:
 iabbrev jc: justify-content:
@@ -66,6 +65,7 @@ iabbrev ai: align-items:
 
 iabbrev ac: align-content:
 iabbrev or: order:
+iabbrev fl: flex: 1;
 iabbrev flx: flex: 0 1 auto;
 iabbrev flxn: flex: none;
 iabbrev as: align-self:
