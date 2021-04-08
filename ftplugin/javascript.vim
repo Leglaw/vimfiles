@@ -47,10 +47,22 @@ nmap <leader>lcpe oconsole.profileEnd();<esc>
 
 nmap <leader>lcts oconsole.time();<esc>
 nmap <leader>lctl oconsole.timeLog();<esc>
-nmap <leader>lctm oconsole.timeStamp();<esc>
 nmap <leader>lcte oconsole.timeEnd();<esc>
 
 nmap <leader>lctr oconsole.trace();<esc>
+vmap <leader>ljs cJSON.stringify(<c-r>", null, 2)<esc>
+
+
+""""""""""""""""""""""""""""""""""""""""
+" Testing
+""""""""""""""""""""""""""""""""""""""""
+iabbrev afe; afterEach(() => {<cr><cr>});<up><c-o>S
+iabbrev afa; afterAll(() => {<cr><cr>});<up><c-o>S
+iabbrev bfe; beforeEach(() => {<cr><cr>});<up><c-o>S
+iabbrev bfa; beforeAll(() => {<cr><cr>});<up><c-o>S
+iabbrev dsc; describe('', () => {<cr><cr>});<up><up><c-o>f'<right>
+iabbrev its; it('should ', () => {<cr><cr>});<up><up><c-o>f,<left>
+iabbrev itsa; it('should ', async () => {<cr><cr>});<up><up><c-o>f,<left>
 
 
 """"""""""""""""""""""""""""""""""""""""
@@ -79,6 +91,9 @@ vmap <leader>lac y:Tabularize /<c-r>0<cr>
 " Auto-indent matching brackets, parens, or braces
 imap <s-cr> <cr><cr><esc><up>S
 imap <leader><cr> <cr><cr><esc><up>S
+
+
+nmap <leader>letf oexpect(true).toBe(false);<esc>
 
 """"""""""""""""""""""""""""""""""""""""
 " Variables

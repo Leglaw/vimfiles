@@ -59,7 +59,12 @@ iabbrev d: display:
 iabbrev f: float:
 iabbrev ff: font-family:
 
+iabbrev flb: flex-basis:
+iabbrev fld: flex-direction:
 iabbrev flf: flex-flow:
+iabbrev flg: flex-grow:
+iabbrev fls: flex-shrink:
+iabbrev flw: flex-wrap:
 iabbrev jc: justify-content:
 iabbrev ai: align-items:
 
