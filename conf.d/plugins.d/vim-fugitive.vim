@@ -16,6 +16,6 @@ nnoremap <leader>gs :Gstatus<cr>
 nnoremap <leader>gw :Gwrite<cr>
 vnoremap <leader>gg y:Ggrep <c-r>0<cr>
 
-command! GdiffInTab tabedit %|Gvdiffsplit
+command! GdiffInTab tabedit %|Gvdiffsplit HEAD^
 nnoremap <leader>d :GdiffInTab<cr>
-nnoremap <leader>D :tabclose<cr>gT
+" nnoremap <leader>D :tabclose<cr>gT
