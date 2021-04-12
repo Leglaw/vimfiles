@@ -20,6 +20,35 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-obsession'
 Plug 'nelstrom/vim-qargs' " quickfix to args
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'Shougo/denite.nvim'
+
+" File types / languages
+Plug 'sheerun/vim-polyglot'
+Plug 'nelstrom/vim-markdown-folding'
+" " File type helpers
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'scrooloose/syntastic'
+Plug 'Chiel92/vim-autoformat'
+" Plug 'Valloric/YouCompleteMe', {
+"       \   'dir': '~/.vim/plugged/YouCompleteMe',
+"       \   'do': './install.py --tern-completer --omnisharp-completer --clang-completer'
+"       \ }
+" Plug 'OmniSharp/omnisharp-vim'
+" Plug 'mhartington/nvim-typescript', { 'do': './install.sh' }
+" Plug 'jparise/vim-graphql'
+" Plug 'OrangeT/vim-csharp'
+
+" Framework helpers
+" Plug 'tpope/vim-rails'
+
+" Tagging & Searching
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+Plug 'mileszs/ack.vim'
+Plug 'haya14busa/incsearch.vim'
+Plug 'haya14busa/vim-asterisk'
+Plug 'majutsushi/tagbar'
 
 " Text editing
 Plug 'tpope/vim-commentary'
@@ -28,35 +57,15 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-ragtag'
 Plug 'mattn/emmet-vim'
-Plug 'nelstrom/vim-markdown-folding'
 Plug 'godlygeek/tabular'
 Plug 'PeterRincker/vim-argumentative'
+Plug 'Raimondi/delimitMate'
+" " Code sippets
 " Plug 'Shougo/neosnippet.vim'
 " Plug 'Shougo/neosnippet-snippets'
 " Plug 'Shougo/neocomplete.vim'
-Plug 'HerringtonDarkholme/yats.vim'
-" Plug 'mhartington/nvim-typescript', { 'do': './install.sh' }
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'Shougo/denite.nvim'
-" Plug 'Valloric/YouCompleteMe', {
-"       \   'dir': '~/.vim/plugged/YouCompleteMe',
-"       \   'do': './install.py --tern-completer --omnisharp-completer --clang-completer'
-"       \ }
-Plug 'Raimondi/delimitMate'
-" NeoBundleLazy 'facebook/vim-flow', {
-"             \ 'autoload': {
-"             \     'filetypes': 'javascript'
-"             \ }}
 
-" Plug 'tpope/vim-rails'
 
-" File types
-Plug 'sheerun/vim-polyglot'
-" Plug 'OrangeT/vim-csharp'
-" Plug 'pallets/jinja'
-" Plug 'Quramy/tsuquyomi'
-" Plug 'Quramy/vim-dtsm'
-" Plug 'mhartington/vim-typings'
 " Plug 'Shougo/vimproc.vim', {
 "         \ 'build' : {
 "         \     'windows' : 'tools\\update-dll-mingw',
@@ -67,10 +76,6 @@ Plug 'sheerun/vim-polyglot'
 "         \    },
 "         \ }
 
-" Languages
-" Plug 'OmniSharp/omnisharp-vim'
-Plug 'scrooloose/syntastic'
-Plug 'Chiel92/vim-autoformat'
 
 " Colorschemes
 Plug 'mrtazz/molokai.vim'
@@ -78,14 +83,6 @@ Plug 'altercation/vim-colors-solarized'
 
 " Source control
 Plug 'tpope/vim-fugitive'
-
-" Tagging & Searching
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
-Plug 'mileszs/ack.vim'
-Plug 'haya14busa/incsearch.vim'
-Plug 'haya14busa/vim-asterisk'
-Plug 'majutsushi/tagbar'
 
 " External utils
 " Plug 'tpope/vim-tbone' " tmux
