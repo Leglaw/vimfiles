@@ -5,3 +5,5 @@ let g:ackprg = 'ag --nogroup --nocolor --column'
 
 let g:python_host_prog  = '/usr/local/bin/python'
 let g:python3_host_prog = '/usr/local/bin/python3'
+
+let g:ruby_host_prog = '~/.gem/bin/neovim-ruby-host'
