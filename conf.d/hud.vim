@@ -6,7 +6,7 @@ if has("statusline") && !&cp
   set statusline=%<%1*\ %f\ %*       " filename
   set statusline+=%2*%m%r%*          " modified, readonly
   set statusline+=\ %3*%y%*          " filetype
-  set statusline+=\ %4*%{fugitive#head()}%0*
+  set statusline+=\ %4*%{FugitiveStatusline()}%0*
   set statusline+=%=                 " left-right separation point
   set statusline+=\ %5*%l%*/%L[%p%%] " current line/total lines
   set statusline+=\ %5*%v%*[0x%B]    " current column [hex char]
