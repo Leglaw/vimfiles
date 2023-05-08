@@ -1,4 +1,4 @@
-set rtp+=/usr/local/opt/fzf
+set rtp+=/usr/homebrew/bin/fzf
 
 " Basic mappings
 nmap <silent> <leader>fa :Ag<cr>
