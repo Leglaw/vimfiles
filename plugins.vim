@@ -12,7 +12,6 @@ Plug 'editorconfig/editorconfig-vim'
 
 " UI enhancements
 Plug 'sjl/gundo.vim'
-Plug 'Shougo/unite.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'
 
@@ -20,24 +19,22 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-obsession'
 Plug 'nelstrom/vim-qargs' " quickfix to args
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'Shougo/denite.nvim'
+" Plug 'Shougo/denite.nvim'
 
 " File types / languages
-Plug 'sheerun/vim-polyglot'
-Plug 'nelstrom/vim-markdown-folding'
-" " File type helpers
-Plug 'HerringtonDarkholme/yats.vim'
-Plug 'scrooloose/syntastic'
-Plug 'Chiel92/vim-autoformat'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'jparise/vim-graphql'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" File type helpers
+" Plug 'nelstrom/vim-markdown-folding'
+Plug 'vim-autoformat/vim-autoformat'
+
 " Plug 'Valloric/YouCompleteMe', {
 "       \   'dir': '~/.vim/plugged/YouCompleteMe',
 "       \   'do': './install.py --tern-completer --omnisharp-completer --clang-completer'
 "       \ }
 " Plug 'OmniSharp/omnisharp-vim'
-" Plug 'mhartington/nvim-typescript', { 'do': './install.sh' }
-" Plug 'jparise/vim-graphql'
-" Plug 'OrangeT/vim-csharp'
 
 " Framework helpers
 " Plug 'tpope/vim-rails'
@@ -51,6 +48,7 @@ Plug 'haya14busa/vim-asterisk'
 Plug 'majutsushi/tagbar'
 
 " Text editing
+Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
@@ -78,7 +76,6 @@ Plug 'Raimondi/delimitMate'
 
 
 " Colorschemes
-Plug 'mrtazz/molokai.vim'
 Plug 'altercation/vim-colors-solarized'
 
 " Source control
@@ -88,7 +85,7 @@ Plug 'tpope/vim-fugitive'
 " Plug 'tpope/vim-tbone' " tmux
 Plug 'tpope/vim-eunuch' " file system
 Plug 'tpope/vim-dispatch' " async compile
-Plug 'rizzatti/dash.vim' " Dash API lookup
+" Plug 'rizzatti/dash.vim' " Dash API lookup
 
 " Meta
 " Plug 'tpope/vim-flagship'

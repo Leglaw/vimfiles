@@ -60,11 +60,6 @@ imap <c-space> <c-x><c-o>
 
 " Searching
 map <leader>h "0yiw:help <c-r>0
-map <leader># "0yiw?\v^((<c-r>0)@!.)*\n<cr>
-map <leader>* "0yiw/\v^((<c-r>0)@!.)*\n<cr>
-" bind K to grep word under cursor
-nnoremap K :Ack! "\b<C-R><C-W>\b"<CR>:cw<CR>
-vnoremap K "*y :Ack! "\b<C-R>*\b"<CR>:cw<CR>
 
 " Quick RC editing
 nnoremap <leader>ev :tabedit ~/.vimrc<cr>
