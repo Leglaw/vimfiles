@@ -76,7 +76,9 @@ Plug 'Raimondi/delimitMate'
 
 
 " Colorschemes
-Plug 'altercation/vim-colors-solarized'
+" Plug 'altercation/vim-colors-solarized'
+" Solarized theme that works with neovim 0.10.0
+Plug 'maxmx03/solarized.nvim'
 
 " Source control
 Plug 'tpope/vim-fugitive'
