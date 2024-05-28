@@ -49,7 +49,6 @@ Plug 'majutsushi/tagbar'
 
 " Text editing
 Plug 'junegunn/vim-easy-align'
-Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-endwise'
