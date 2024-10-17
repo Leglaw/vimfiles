@@ -1,4 +1,7 @@
 let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-tsserver']
+let g:coc_user_config = {}
+"let g:coc_user_config['suggest.timeout'] = 500
+let g:coc_user_config['suggest.noselect'] = v:true
 
 " May need for Vim (not Neovim) since coc.nvim calculates byte offset by count
 " utf-8 byte sequence
