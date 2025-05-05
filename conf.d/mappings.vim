@@ -17,7 +17,7 @@ nnoremap <leader>w :w<cr>
 nnoremap <leader>q :q<cr>
 
 " Window mappings
-nnoremap <c-_> <c-w><c-_>
+nnoremap <c--> <c-w><c-_>
 nnoremap <c-h> <c-w><c-h>
 nnoremap <c-j> <c-w><c-j>
 nnoremap <c-k> <c-w><c-k>

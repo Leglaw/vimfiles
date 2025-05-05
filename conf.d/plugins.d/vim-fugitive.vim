@@ -15,6 +15,7 @@ nnoremap <leader>gpu :Gpush
 nnoremap <leader>gs :Git<cr>
 nnoremap <leader>gw :Gwrite<cr>
 vnoremap <leader>gg y:Ggrep <c-r>0<cr>
+vnoremap <leader>glg y:Glgrep <c-r>0<cr>
 
 command! GdiffInTab tabedit %|Gvdiffsplit HEAD^
 nnoremap <leader>d :GdiffInTab<cr>
