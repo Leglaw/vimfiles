@@ -26,6 +26,9 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'jparise/vim-graphql'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" LLMs
+Plug 'github/copilot.vim'
+
 " File type helpers
 " Plug 'nelstrom/vim-markdown-folding'
 Plug 'vim-autoformat/vim-autoformat'
